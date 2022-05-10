@@ -1,0 +1,12 @@
+body {
+    background-color: #021B59;
+}
+.wrapper {
+    margin: 0 auto;
+    width: 80%;
+}
+
+.logo {
+    position: relative;
+    margin: 0 auto;
+}

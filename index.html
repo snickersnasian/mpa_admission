@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="css/index.css">
     
     <title>Музыкальная Премия Академии</title>
 </head>
 <body>
     <div class="wrapper">
-        <img class="logo" src="./media/ama_logo.svg" alt="AMA Logo">
+        <img class="logo" src="logo.png" alt="AMA Logo">
 
         <!-- <div class="svet"></div> -->
         <h1 class="svet_header">Регистрация</h1>
@@ -20,7 +20,7 @@
             <!-- <div class="title"><h1>Регистрация на Музыкальную Премию Академии</h1></div> -->
 
             <div class="form">
-                <form action="/api/ticket/create">
+                <form method="post" action="/api/tickets/createTicket">
                     <input type="text" placeholder="Имя" name="firstName"/>
                     <input type="text" placeholder="Фамилия" name="lastName"/>
                     <input type="mail" placeholder="Почта" name="mail"/>

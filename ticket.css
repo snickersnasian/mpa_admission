@@ -1,0 +1,71 @@
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+}
+
+.wrapper {
+    width: 600px;
+    height: 800px;
+    background: url("https://i.postimg.cc/MHY8cq5k/hat.png") 0 0/100% auto no-repeat, #0C145A;
+    display: flex;
+    align-items: flex-end;
+}
+
+.ticket {
+    height: 323px;
+    font-family: "Montserrat";
+    width: 600px;
+    padding: 0 24px;
+    color: #fff;
+    display: flex;
+    display: flex;
+    justify-content: space-between;
+    background:#0C145A;
+}
+
+.ticket-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 100%;
+    height: 250px;
+}
+
+.qr {
+    height: 250px;
+    min-width: 250px;
+    margin: 10px 20px 0 0;
+    background: rgb(141, 141, 141);
+}
+
+.event-text {
+    text-transform: uppercase;
+    
+}
+
+.event-text p:first-child{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 70px;
+}
+
+.event-text p:first-child{
+    font-size: 18.6px;
+}
+
+.event-text p:first-child span{
+    font-size: 14px;
+}
+
+.year {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+}
+
+.year p{
+    margin: 0;
+}
